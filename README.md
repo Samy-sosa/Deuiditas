@@ -17,14 +17,22 @@ Sistema web multi-tenant para la gestión de apartados, control de pagos y admin
 - Creación de apartados
 - Control de pagos y deudas
 - Seguimiento de estados de pago
+- Generación de tickets en PDF
+- Generación de enlace para envío de tickets vía WhatsApp con mensaje predefinido
 - Sistema multi-tenant
+- Integración de pagos en línea mediante Mercado Pago
+- Gestión de planes y suscripciones
 
 ## 🧠 Características técnicas
 - Arquitectura MVC
 - CRUD completo
 - Manejo de sesiones
-- Base de datos relacional
+- Base de datos relacional (MySQL)
 - Validaciones de datos
+- Generación dinámica de documentos PDF
+- Integración con plataforma de pagos (Mercado Pago)
+- Implementación de middleware para control de acceso basado en estado de suscripción
+- Lógica de expiración de planes y restricción de acceso al sistema
 
 ## ⚙️ Instalación
 
