@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* --- FIX PARA DRIVER.JS --- */
+.glass-popover {
+    background: rgba(10, 10, 15, 0.9) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+    border-radius: 24px !important;
+    padding: 20px !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
+}
+
+.driver-popover-title { 
+    color: #3b82f6 !important; 
+    font-weight: 800 !important; 
+    font-size: 1.1rem !important;
+}
+
+.driver-popover-description { 
+    color: #94a3b8 !important; 
+    line-height: 1.5 !important;
+}
+
+.driver-popover-btn { 
+    background: #2563eb !important; 
+    color: white !important;
+    border: none !important;
+    text-shadow: none !important;
+    border-radius: 10px !important;
+    padding: 8px 16px !important; /* Corregido para que no se vea pegado */
+    font-weight: bold !important;
+    font-size: 12px !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+}
+
+.driver-popover-btn:hover { background: #1d4ed8 !important; }
+.driver-popover-arrow { border-bottom-color: rgba(10, 10, 15, 0.9) !important; }
