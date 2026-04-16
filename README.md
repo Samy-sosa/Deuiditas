@@ -7,6 +7,7 @@ Sistema web multi-tenant para la gestión de apartados, control de pagos y admin
 - MySQL
 - JavaScript
 - HTML5
+- PWA (Progressive Web App)
 
 ## 🔐 Funcionalidades
 - Sistema de autenticación (login de usuarios)
@@ -22,6 +23,7 @@ Sistema web multi-tenant para la gestión de apartados, control de pagos y admin
 - Sistema multi-tenant
 - Integración de pagos en línea mediante Mercado Pago
 - Gestión de planes y suscripciones
+- Instalable como aplicación (PWA)
 
 ## 🧠 Características técnicas
 - Arquitectura MVC
@@ -33,6 +35,7 @@ Sistema web multi-tenant para la gestión de apartados, control de pagos y admin
 - Integración con plataforma de pagos (Mercado Pago)
 - Implementación de middleware para control de acceso basado en estado de suscripción
 - Lógica de expiración de planes y restricción de acceso al sistema
+- Configuración como Progressive Web App (PWA)
 
 ## ⚙️ Instalación
 
