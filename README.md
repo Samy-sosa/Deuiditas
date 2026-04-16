@@ -39,11 +39,35 @@ Sistema web multi-tenant para la gestión de apartados, control de pagos y admin
 
 ## ⚙️ Instalación
 
-```bash
-git clone https://github.com/Samy-sosa/Deuiditas.git
-cd Deuiditas
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan serve
+git clone https://github.com/Samy-sosa/Deuiditas.git  
+cd Deuiditas  
+composer install  
+cp .env.example .env  
+php artisan key:generate  
+php artisan migrate  
+php artisan serve  
+
+---
+
+## 📸 Capturas del sistema
+
+### 🔐 Login
+![](screenshots/login.png)
+
+### 📊 Dashboard
+![](screenshots/dashboard.png)
+
+### 🧾 Crear cuenta
+![](screenshots/crearcuenta.png)
+
+### 💳 Planes
+![](screenshots/planes.png)
+
+---
+
+## 📱 PWA (Aplicación instalable)
+
+El sistema puede instalarse como aplicación en dispositivos móviles o escritorio gracias a su configuración como Progressive Web App (PWA), permitiendo una experiencia similar a una app nativa.
+
+## 👨‍💻 Autor
+Samy Sosa
